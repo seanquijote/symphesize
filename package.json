@@ -1,0 +1,31 @@
+{
+  "name": "symphesize",
+  "version": "1.0.0",
+  "description": "Personal Discord music bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanquijote/symphesize.git"
+  },
+  "author": "Sean Quijote",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanquijote/symphesize/issues"
+  },
+  "homepage": "https://github.com/seanquijote/symphesize#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ffmpeg": "0.0.4",
+    "yt-search": "^2.10.1",
+    "ytdl-core": "^4.9.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
